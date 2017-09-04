@@ -1,0 +1,50 @@
+{
+  "name": "@getlazy/faas-pipeline",
+  "version": "1.0.0",
+  "description": "OpenFaaS function composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r test/bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ierceg/faas-pipeline.git"
+  },
+  "keywords": [
+    "faas",
+    "composition",
+    "pipeline"
+  ],
+  "authors": [
+    {
+      "name": "Ivan Erceg",
+      "url": "https://github.com/ierceg",
+      "title": "Software Shipper",
+      "username": "ierceg",
+      "twitter": "ierceg"
+    },
+    {
+      "name": "Nebojsa Lazic",
+      "url": "https://github.com/neboysa",
+      "title": "Master of Disaster",
+      "username": "neboysa",
+      "twitter": "2klik"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ierceg/faas-pipeline/issues"
+  },
+  "homepage": "https://github.com/ierceg/faas-pipeline#readme",
+  "dependencies": {
+    "@getlazy/common": "^1.1.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "try-json-parse": "^1.0.0"
+  },
+  "devDependencies": {
+    "nock": "^9.0.14",
+    "testdouble": "^1.11.0"
+  }
+}
