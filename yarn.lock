@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-"@getlazy/common@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@getlazy/common/-/common-1.1.0.tgz#1f94692aa101bbdf7a52c2df1504e2489eda40fd"
-  dependencies:
-    lodash "^4.17.4"
-
 ajv@^4.9.1:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.8.tgz#82ffb02b29e662ae53bdc20af15947706739c536"
@@ -269,6 +263,12 @@ nock@^9.0.14:
 oauth-sign@~0.8.1:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
+
+package-logger@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/package-logger/-/package-logger-1.0.0.tgz#b60274063b32b3abe353862b016b23bcdbe46ffb"
+  dependencies:
+    lodash "^4.17.4"
 
 performance-now@^0.2.0:
   version "0.2.0"
