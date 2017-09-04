@@ -91,7 +91,6 @@ describe('FaasPipeline', function () {
 					]});
 				const capturedMetrics = [];
 				pipeline.on('metrics', (metrics) => {
-					console.log('okay...');
 					capturedMetrics.push(metrics);
 				});
 				return pipeline.run({})

@@ -411,6 +411,6 @@ module.exports = [{
 	},
 	catch: (error, nocks) => {
 		_.each(nocks, nock => assert(nock.isDone()));
-		assert.equal(_.get(error, 'message'), 'Failure during pipe run: fn1 failed with yet another error');
+		assert.equal(_.get(error, 'message'), 'Failure during pipe run: fn1 failed with "yet another error"');
 	}
 }];

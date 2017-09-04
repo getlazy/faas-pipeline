@@ -1,4 +1,4 @@
 
 'use strict';
 
-module.exports = require('./lib/engine-pipeline');
+module.exports = require('./lib/faas-pipeline');
